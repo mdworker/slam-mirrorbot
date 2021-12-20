@@ -17,4 +17,4 @@ jobs:
           stack: "container"
           region: "eu"
         env:
-          HD_CONFIG_FILE_URL: ${{secrets.https://gist.githubusercontent.com/mdworker/cf3144e44a911a7907b62e397fdac62f/raw/config.env}}
+          HD_CONFIG_FILE_URL: ${{https://gist.githubusercontent.com/mdworker/cf3144e44a911a7907b62e397fdac62f/raw/config.env}}
