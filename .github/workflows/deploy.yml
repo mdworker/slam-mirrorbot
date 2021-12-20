@@ -9,12 +9,12 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: ${{secrets.HEROKU_APP_NAME}}
-          heroku_email: ${{secrets.HEROKU_EMAIL}}
+          heroku_api_key: ${{54f2b925-b8b9-4992-8b3a-04a60a7ef9a2}}
+          heroku_app_name: ${{redmarvel_Bot}}
+          heroku_email: ${{mdworkerdrive@gmail.com}}
           usedocker: true
           docker_heroku_process_type: web
           stack: "container"
           region: "eu"
         env:
-          HD_CONFIG_FILE_URL: ${{secrets.CONFIG_FILE_URL}}
+          HD_CONFIG_FILE_URL: ${{secrets.https://gist.githubusercontent.com/mdworker/cf3144e44a911a7907b62e397fdac62f/raw/config.env}}
